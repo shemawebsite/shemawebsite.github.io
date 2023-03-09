@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background: #5375;
+}
+
+.wraper{
+	width: 605px;
+	background: #fff;
+	border-radius: 15px;
+	padding: 30px 30px 25px;
+}
+
+.wraper header{
+	font-size: 35px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.wraper .content{
+	margin: 35px 0;
+}
+.content .quote-area{
+	display: flex;
+}
+
+.quote-area i{
+	font-size: 15px;
+}
+.quote-area i:first-child{
+	margin: 3px 10px 0 0;
+}
+.quote-area i:last-child{
+	margin: 0 0 3px 10px;
+	display: flex;
+	align-items: flex-end;
+}
+
+.quote-area .quote{
+	font-size: 22px;
+	text-align: center;
+	word-break: break-all;
+}
+
+.content .author{
+	display: flex;
+	margin-top: 20px;
+	font-size: 18px;
+	font-style: italic;
+	justify-content: flex-end;
+}
+
+.author span:first-child{
+	margin: -7px 5px 0 0;
+	font-family: monospace;
+}
+
+.wraper .buttons{
+	border-top: 1px solid #ccc;
+}
+
+.buttons .features{
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+	justify-content: space-between;
+}
+
+.features ul{
+	display: flex;
+}
+.features ul li{
+	list-style: none;
+	margin: 0 5px;
+	height: 47px;
+	width: 47px;
+	border-radius: 50px;
+	cursor: pointer;
+	align-items: center;
+	display: flex;
+	color: #537;
+	justify-content: center;
+	border: 2px solid #537;
+	transition: all 0.3s ease; 
+}
+
+.features ul li:hover{
+	color: white;
+	background-color: #5376;
+}
+.features button{
+	border: none;
+	outline: none;
+	padding: 13px 22px;
+	border-radius: 30px;
+	background: #537;
+	color: white;
+	cursor: pointer;
+	font-style: 16px;
+}
+button.loading{
+	opacity: 0.7;
+	pointer-events: none;
+}
